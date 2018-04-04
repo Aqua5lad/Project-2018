@@ -16,9 +16,11 @@ This data set recorded the species of each Iris (3 were identified), and the mea
 
 
 
-### LIST OF PROJECT REFERENCES :
+### Project References List :
 
 1: https://en.wikipedia.org/wiki/Multivariate_statistics
+
 2: https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x
+
 3: https://en.wikipedia.org/wiki/Linear_discriminant_analysis
 
