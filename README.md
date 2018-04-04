@@ -7,5 +7,7 @@ The subject matter of the project concerns the well-known [Fisher’s Iris data 
 
 Fisher's Iris data set is a multivariate data set<sup>[1](https://en.wikipedia.org/wiki/Multivariate_statistics)</sup> introduced by the British statistician and biologist Ronald Fisher in his 1936 paper "The use of multiple measurements in taxonomic problems"<sup>[2](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x)</sup> as an example of linear discriminant analysis<sup>[3](https://en.wikipedia.org/wiki/Linear_discriminant_analysis)</sup>.
 
+This data set recorded the measurements (in centimetres) of 4 variables of each Iris. These were the sepal length, sepal width, petal length and petal width. It was performed on 50 flowers from each of 3 species of Iris, resulting in a total of 600 observations.
+
 
 
