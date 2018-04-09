@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
     # importing the numpy & matplot libraries to help manipulate the data, and giving them shorthand names
 
 data = np.genfromtxt('Data/Iris.csv', delimiter=',')
-    # importing the iris dataset, as a csv file
+    # importing the iris dataset, as a csv file (syntax found on stack overflow)
 print (data[:,0]) 
     # show the first column of the dataset
 
