@@ -5,7 +5,6 @@
 # essay on "Functions, modules, packages and libraries" recommended by Ian McLoughlin at: 
 # https://nbviewer.jupyter.org/github/ianmcloughlin/python-fundamentals-notes/blob/master/functions-modules.ipynb#
 
-
 import numpy as np
 import matplotlib.pyplot as plt
     # importing the numpy & matplot libraries to help manipulate the data, and giving them shorthand names
@@ -16,4 +15,5 @@ col1 = (data[:,0])
     # select the first column of the dataset
 col1mean = (np.mean(data[:,0]))
     # find the mean of the values in Column 1 (per method from Ian's video 'Numpy')
-print("Column 1 mean is:", col1mean)
+print("Column 1 mean is:",'{:0.3f}'.format(col1mean))
+    # display the Column 1 mean to 3 decimal places (my preference)
