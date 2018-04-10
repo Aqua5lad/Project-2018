@@ -44,3 +44,18 @@ print("Column 1 min is:",'{:0.3f}'.format(col1min))
 print("Column 2 min is:",'{:0.3f}'.format(col2min))
 print("Column 3 min is:",'{:0.3f}'.format(col3min))
 print("Column 4 min is:",'{:0.3f}'.format(col4min))      
+
+    # note to self - lookup 'compartmentalising code into functions'
+
+col1std = (np.std(data[:,0]))
+    # Std.Deviation - I guessed sd first, then found 'std' function on stack overflow
+col2std = (np.std(data[:,1]))
+col3std = (np.std(data[:,2]))
+col4std = (np.std(data[:,3]))
+
+print("Column 1 Std Dev is:",'{:0.3f}'.format(col1std))
+print("Column 2 Std Dev is:",'{:0.3f}'.format(col2std))
+print("Column 3 Std Dev is:",'{:0.3f}'.format(col3std))
+print("Column 4 Std Dev is:",'{:0.3f}'.format(col4std))
+
+
