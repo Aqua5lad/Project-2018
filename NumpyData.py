@@ -58,4 +58,8 @@ print("Column 2 Std Dev is:",'{:0.3f}'.format(col2std))
 print("Column 3 Std Dev is:",'{:0.3f}'.format(col3std))
 print("Column 4 Std Dev is:",'{:0.3f}'.format(col4std))
 
+    # Now lets split out the 3 varieties in the dataset
+    # check that I can call a value from a specific cell:
+    
+print("the value at row 3, column 2 is:",data[2,1])
 
