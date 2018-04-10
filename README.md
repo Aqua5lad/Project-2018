@@ -20,13 +20,7 @@ A python program called NumpyData was written to analyse the dataset and identif
 |No. measured  |     50       |      50      |     50       |      50
 
 
-    Exercise Number  | File Name    
-    ---------------- | -------------
-    Exercises 1 & 2  | fib-name.py 
-    Exercise 3       | Collatz.py 
-    Exercise 4       | Euler5sol.py
-    Exercise 5       | IrisTable.py
-    Exercise 6       | Factorial.py
+
 
 
 
