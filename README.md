@@ -14,11 +14,9 @@ A python program called NumpyData was written to analyse the dataset and identif
 
               | sepal length | sepal width  | petal length | petal width
 ------------- | -------------| -------------| -------------| -------------
-              |              |              |              |       
 Maximum (cm)  |     7.9      |      4.4     |     6.9      |      2.5    
 Minimum (cm)  |     4.3      |      2.0     |     1.0      |      0.1   
 Mean    (cm)  |     5.843    |      3.054   |     3.759    |      1.199    
-
 No. measured  |     50       |      50      |     50       |      50
 
 
