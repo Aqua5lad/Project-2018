@@ -12,17 +12,35 @@ import matplotlib.pyplot as plt
 
 data = np.genfromtxt('Data/Iris.csv', delimiter=',')
     # importing the iris dataset, as a csv file (syntax found on stack overflow)
-col1 = (data[:,0]) 
-    # select the first column of the dataset
 col1mean = (np.mean(data[:,0]))
     # find the mean of the values in Column 1 (per method from Ian's video 'Numpy')
 col2mean = (np.mean(data[:,1]))  
 col3mean = (np.mean(data[:,2]))
 col4mean = (np.mean(data[:,3]))   
     # likewise for the other 3 data columns
-
 print("Column 1 mean is:",'{:0.3f}'.format(col1mean))
     # display the Column 1 mean to 3 decimal places (my preference)
 print("Column 2 mean is:",'{:0.3f}'.format(col2mean))
 print("Column 3 mean is:",'{:0.3f}'.format(col3mean))
-print("Column 4 mean is:",'{:0.3f}'.format(col4mean))  
+print("Column 4 mean is:",'{:0.3f}'.format(col4mean))    
+
+col1max = (np.max(data[:,0]))
+    # find the mean of the values in Column 1 (per method from Ian's video 'Numpy')
+col2max = (np.max(data[:,1]))
+col3max = (np.max(data[:,2]))
+col4max = (np.max(data[:,3]))  
+print("Column 1 max is:",'{:0.3f}'.format(col1max))
+    # display the Column 1 max to 3 decimal places 
+print("Column 2 max is:",'{:0.3f}'.format(col2max))
+print("Column 3 max is:",'{:0.3f}'.format(col3max))
+print("Column 4 max is:",'{:0.3f}'.format(col4max))
+
+col1min = (np.min(data[:,0]))
+col2min = (np.min(data[:,1]))
+col3min = (np.min(data[:,2]))
+col4min = (np.min(data[:,3]))  
+print("Column 1 min is:",'{:0.3f}'.format(col1min))
+    # display the Column 1 max to 3 decimal places 
+print("Column 2 min is:",'{:0.3f}'.format(col2min))
+print("Column 3 min is:",'{:0.3f}'.format(col3min))
+print("Column 4 min is:",'{:0.3f}'.format(col4min))      
