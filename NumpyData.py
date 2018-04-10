@@ -1,6 +1,6 @@
-# early test scripts for Project-2018 by Colm Doherty, started on 2018-4-4
+# by Colm Doherty, started on 2018-4-4. Scripting statistical analysis for Project-2018 
 # to figure out how to manipulate the dataset to discover max, min and mean 
-# values in each column. initial source for methodolgy was a
+# values in each column, and more if possible. Initial source for methodolgy was a
 # free tutorial at https://www.youtube.com/watch?v=Tq6rCWPdXoQ and then an 
 # essay on "Functions, modules, packages and libraries" recommended by Ian McLoughlin at: 
 # https://nbviewer.jupyter.org/github/ianmcloughlin/python-fundamentals-notes/blob/master/functions-modules.ipynb#
@@ -57,9 +57,24 @@ print("Column 1 Std Dev is:",'{:0.3f}'.format(col1std))
 print("Column 2 Std Dev is:",'{:0.3f}'.format(col2std))
 print("Column 3 Std Dev is:",'{:0.3f}'.format(col3std))
 print("Column 4 Std Dev is:",'{:0.3f}'.format(col4std))
+   
+    # Now lets split out the 3 varieties in the dataset, for closer analysis ...
 
-    # Now lets split out the 3 varieties in the dataset
-    # check that I can call a value from a specific cell:
-    
 print("the value at row 3, column 2 is:",data[2,1])
+    # checking that I can call a value from a specific cell:
+
+    # now I want to call a range of rows in each column ...
+col1Setomean = (np.mean(data[0:49,0]))
+print("Column 1 Setosa mean is:",'{:0.3f}'.format(col1Setomean))
+    # figured this out with help from http://cs231n.github.io/python-numpy-tutorial/#numpy-arrays
+col2Setomean = (np.mean(data[1:49,0]))
+col3Setomean = (np.mean(data[2:49,0]))
+col4Setomean = (np.mean(data[3:49,0]))
+
+print("Column 2 Setosa mean is:",'{:0.3f}'.format(col2Setomean))
+print("Column 3 Setosa mean is:",'{:0.3f}'.format(col3Setomean))
+print("Column 4 Setosa mean is:",'{:0.3f}'.format(col4Setomean))
+    # display the mean for each Column in the Setosa sample
+
+    # ERROR - results for columns 2-4 are incorrect ....
 
