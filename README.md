@@ -21,7 +21,7 @@ A python program called NumpyData was written to analyse the whole dataset and i
 |Mean    (cm)  |     5.843    |      3.054   |     3.759    |      1.199    
 |Std.Deviation |     0.825    |      0.432   |     1.759    |      0.761
 
-#### Table 1 - Statistics for entire the Iris dataset
+#### Table 1 - Statistics for the entire Iris dataset
 
 
 |              | sepal length | sepal width  | petal length | petal width
@@ -29,9 +29,17 @@ A python program called NumpyData was written to analyse the whole dataset and i
 |Maximum (cm)  |     5.8      |      4.4     |     1.9      |      0.6    
 |Minimum (cm)  |     4.3      |      2.3     |     1.0      |      0.1   
 |Mean    (cm)  |     5.006    |      3.420   |     1.465    |      0.245    
-|Std.Deviation |     0.825    |      0.432   |     1.759    |      0.761
 
 #### Table 2 - Statistics for the Iris-Setosa subset
+
+
+|              | sepal length | sepal width  | petal length | petal width
+|------------- | -------------| -------------| -------------| -------------
+|Maximum (cm)  |     7.0      |      4.4     |     1.9      |      0.6    
+|Minimum (cm)  |     4.3      |      2.3     |     1.0      |      0.1   
+|Mean    (cm)  |     5.941    |      2.769   |              |      
+
+#### Table 2 - Statistics for the Iris-Versicolor subset
 
 
 
