@@ -20,6 +20,16 @@ Mean    (cm)  |     5.843    |      3.054   |     3.759    |      1.199
 No. measured  |     50       |      50      |     50       |      50
 
 
+Exercise Number  | File Name
+---------------- | -------------
+Exercises 1 & 2  | fib-name.py 
+Exercise 3       | Collatz.py 
+Exercise 4       | Euler5sol.py
+Exercise 5       | IrisTable.py
+Exercise 6       | Factorial.py
+
+
+
 
 
 
