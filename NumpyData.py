@@ -8,9 +8,16 @@
 import numpy as np
 import matplotlib.pyplot as plt
     # importing the numpy & matplot libraries to help manipulate the data, and giving them shorthand names
-
+    # Alternately I could import these into iPython while testing 
+    # remember that I'm working on a multivariate dataset
 data = np.genfromtxt('Data/Iris.csv', delimiter=',')
     # importing the iris dataset, as a csv file (syntax found on stack overflow)
+col1 = (data[:,0])    
+col2 = (data[:,1])  
+col3 = (data[:,2])  
+col4 = (data[:,3])  
+     # name the columns, so I can call them later if/when required
+
 col1mean = (np.mean(data[:,0]))
     # find the mean of the values in Column 1 (per method from Ian's video 'Numpy')
 col2mean = (np.mean(data[:,1]))  
@@ -24,7 +31,7 @@ print("Column 3 mean is:",'{:0.3f}'.format(col3mean))
 print("Column 4 mean is:",'{:0.3f}'.format(col4mean))    
 
 col1max = (np.max(data[:,0]))
-    # find the mean of the values in Column 1 (per method from Ian's video 'Numpy')
+    # find the max of the values in Column 1 (guessed this, since .mean gave the mean
 col2max = (np.max(data[:,1]))
 col3max = (np.max(data[:,2]))
 col4max = (np.max(data[:,3]))  
@@ -155,6 +162,7 @@ print("Column 3 Virginica min is:",'{:0.3f}'.format(col3Virgmin))
 print("Column 4 Virginica min is:",'{:0.3f}'.format(col4Virgmin))
 
 
-    
-
-
+# IDEA for using a repeatable function:
+# def colmean = (np.mean(data[r,c]))
+    # where r = row number, and c = column number
+    # print("mean of column [c] for range in row[r] is: ")
