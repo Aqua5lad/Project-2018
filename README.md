@@ -62,9 +62,11 @@ Indeed the ranking of the varieties by variable value, as noted in Table 5 (belo
 |Minimum       |   Setosa     |  Versicolor  |   Setosa     |   Setosa  
 
 
-On closer examination of table 1, I noticed that the data in column 2 (Sepal Width) showed the lowest Standard Deviation of all the variables. This would suggest a clustering of values around the mean. I decided to explore this further by plotting a histogram of these Sepal Width values, using the [matplotlib] program in python. The result is as follows:
+On closer examination of table 1, I noticed that the data in column 2 (Sepal Width) showed the lowest Standard Deviation of all the variables. This would suggest a clustering of values around the mean. I decided to explore this further by plotting a histogram of these Sepal Width values, using the [matplotlib](https://matplotlib.org/) program in python. The result is as follows:
 
-![Histogram1](/Users/colmpdoherty/Desktop/Hist1.png)
+![Histogram](/Users/colmpdoherty/Desktop/Hist1.png)
+
+
 
 
 
