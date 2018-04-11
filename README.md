@@ -50,22 +50,24 @@ A python program called NumpyData was written to analyse the whole dataset and i
 
 ### 2. Initial Observations based on the statistical analysis of the dataset
 
-On reviewing the previous tables, we can make the following observations. The Virginica variety has largest measurements, except for sepal width. The Setosa variety has the smallest measurements, except for sepal width, where it's largest. The Versicolor variety falls in between largest and smallest measurements on all characteristics except for sepal width, where it's smallest.
+On reviewing the previous tables, we can make the following observations. The Virginica variety has the largest measurements, except for sepal width. The Setosa variety has the smallest measurements, except for sepal width, where it's largest. The Versicolor variety falls in between largest and smallest measurements on all characteristics except for sepal width, where it's smallest.
 
-On closer examination of table 1, I noticed that the data in column 2 (Sepal Width) showed the lowest Standard Deviation of all the variables. This would suggest a clustering of values around the mean. I decided to explore this further by plotting a histogram of these Sepal Width values, using the [matplotlib] program in python. The result is as follows:
+Indeed the ranking of the varieties by variable value, as noted in Table 5 (below), may suggest the nature of this variable (sepal width) differs from the other three insofaras the variety ranking diverges from the general pattern of the other variables. 
 
-![GitHub Logo](/Users/colmpdoherty/Desktop/Hist1.png)
-
-
-
-The characteristics of the 4 variables noted in Table 5 (below) also suggest show that the nature of this variable (Sepal Width) may differ from the other three insofaras the ranking of the varieties by variable values is unique. 
-
-####            Table 5 - Characteristics of each variety, as analysed              
+####            Table 5 - Ranking of varieties, by variable value         
 |              | sepal length | sepal width  | petal length | petal width
 |------------- | -------------| -------------| -------------| -------------
 |Maximum       |  Virginica   |   Setosa     |  Virginica   |  Virginica   
 |Medium        |  Versicolor  |  Virginica   |  Versicolor  |  Versicolor    
 |Minimum       |   Setosa     |  Versicolor  |   Setosa     |   Setosa  
+
+
+On closer examination of table 1, I noticed that the data in column 2 (Sepal Width) showed the lowest Standard Deviation of all the variables. This would suggest a clustering of values around the mean. I decided to explore this further by plotting a histogram of these Sepal Width values, using the [matplotlib] program in python. The result is as follows:
+
+![Histogram1](/Users/colmpdoherty/Desktop/Hist1.png)
+
+
+
 
 
 
