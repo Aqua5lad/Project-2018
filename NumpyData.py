@@ -99,19 +99,6 @@ print("Column 3 Setosa min is:",'{:0.3f}'.format(col3Setomin))
 print("Column 4 Setosa min is:",'{:0.3f}'.format(col4Setomin))
     # display the min for each Column in the Setosa sample    
     
-col1Setostd = (np.std(data[0:49,0]))
-col2Setostd = (np.std(data[0:49,1]))
-col3Setostd = (np.std(data[0:49,2]))
-col4Setostd = (np.std(data[0:49,3]))
-
-print("Column 1 Std Dev is:",'{:0.3f}'.format(col1std))
-print("Column 2 Std Dev is:",'{:0.3f}'.format(col2std))
-print("Column 3 Std Dev is:",'{:0.3f}'.format(col3std))
-print("Column 4 Std Dev is:",'{:0.3f}'.format(col4std))    
-     # display the Std Deviation for each Column in the Setosa sample   
-
-    # NB: - these results are identical to the whole dataset. ! hmmm??
-
 col1Versimean = (np.mean(data[50:99,0]))
 print("Column 1 Versicolor mean is:",'{:0.3f}'.format(col1Versimean))
 col2Versimean = (np.mean(data[50:99,1]))
@@ -139,6 +126,15 @@ print("Column 1 Versicolor min is:",'{:0.3f}'.format(col1Versimin))
 print("Column 2 Versicolor min is:",'{:0.3f}'.format(col2Versimin))
 print("Column 3 Versicolor min is:",'{:0.3f}'.format(col3Versimin))
 print("Column 4 Versicolor min is:",'{:0.3f}'.format(col4Versimin))
+
+col1Virgmean = (np.mean(data[100:149,0]))
+print("Column 1 Virginica mean is:",'{:0.3f}'.format(col1Virgmean))
+col2Virgmean = (np.mean(data[100:149,1]))
+col3Virgmean = (np.mean(data[100:149,2]))
+col4Virgmean = (np.mean(data[100:149,3]))
+print("Column 2 Virginica mean is:",'{:0.3f}'.format(col2Virgmean))
+print("Column 3 Virginica mean is:",'{:0.3f}'.format(col3Virgmean))
+print("Column 4 Virginica mean is:",'{:0.3f}'.format(col4Virgmean))
 
 
     
