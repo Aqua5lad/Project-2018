@@ -35,13 +35,20 @@ A python program called NumpyData was written to analyse the whole dataset and i
 
 |              | sepal length | sepal width  | petal length | petal width
 |------------- | -------------| -------------| -------------| -------------
-|Maximum (cm)  |     7.0      |      4.4     |     1.9      |      0.6    
-|Minimum (cm)  |     4.3      |      2.3     |     1.0      |      0.1   
-|Mean    (cm)  |     5.941    |      2.769   |              |      
+|Maximum (cm)  |     7.0      |      3.4     |     5.1      |      1.8  
+|Minimum (cm)  |     4.9      |      2.0     |     3.0      |      1.0   
+|Mean    (cm)  |     5.941    |      2.769   |     4.263    |      1.327
 
 #### Table 2 - Statistics for the Iris-Versicolor subset
 
 
+
+|              | sepal length | sepal width  | petal length | petal width
+|------------- | -------------| -------------| -------------| -------------
+|Maximum (cm)  |     7.0      |      4.4     |     1.9      |      0.6    
+|Minimum (cm)  |     4.3      |      2.3     |     1.0      |      0.1   
+|Mean    (cm)  |     5.941    |      2.769   |              |      
+#### Table 2 - Statistics for the Iris-Virginica subset
 
 
 
