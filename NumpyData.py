@@ -136,6 +136,24 @@ print("Column 2 Virginica mean is:",'{:0.3f}'.format(col2Virgmean))
 print("Column 3 Virginica mean is:",'{:0.3f}'.format(col3Virgmean))
 print("Column 4 Virginica mean is:",'{:0.3f}'.format(col4Virgmean))
 
+col1Virgmax = (np.max(data[100:149,0]))
+print("Column 1 Virginica max is:",'{:0.3f}'.format(col1Virgmax))
+col2Virgmax = (np.max(data[100:149,1]))
+col3Virgmax = (np.max(data[100:149,2]))
+col4Virgmax = (np.max(data[100:149,3]))
+print("Column 2 Virginica max is:",'{:0.3f}'.format(col2Virgmax))
+print("Column 3 Virginica max is:",'{:0.3f}'.format(col3Virgmax))
+print("Column 4 Virginica max is:",'{:0.3f}'.format(col4Virgmax))
+
+col1Virgmin = (np.min(data[100:149,0]))
+print("Column 1 Virginica min is:",'{:0.3f}'.format(col1Virgmin))
+col2Virgmin = (np.min(data[100:149,1]))
+col3Virgmin = (np.min(data[100:149,2]))
+col4Virgmin = (np.min(data[100:149,3]))
+print("Column 2 Virginica min is:",'{:0.3f}'.format(col2Virgmin))
+print("Column 3 Virginica min is:",'{:0.3f}'.format(col3Virgmin))
+print("Column 4 Virginica min is:",'{:0.3f}'.format(col4Virgmin))
+
 
     
 
