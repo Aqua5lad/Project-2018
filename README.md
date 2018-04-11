@@ -52,7 +52,13 @@ A python program called NumpyData was written to analyse the whole dataset and i
 
 On reviewing the previous tables, we can make the following observations. The Virginica variety has largest measurements, except for sepal width. The Setosa variety has the smallest measurements, except for sepal width, where it's largest. The Versicolor variety falls in between largest and smallest measurements on all characteristics except for sepal width, where it's smallest.
 
+On closer examination of table 1, I noticed that the data in column 2 (Sepal Width) showed the lowest Standard Deviation of all the variables. This would suggest a clustering of values around the mean. I decided to explore this further by plotting a histogram of these Sepal Width values, using the [matplotlib] program in python. The result is as follows:
 
+![GitHub Logo](/Users/colmpdoherty/Desktop/Hist1.png)
+
+
+
+The characteristics of the 4 variables noted in Table 5 (below) also suggest show that the nature of this variable (Sepal Width) may differ from the other three insofaras the ranking of the varieties by variable values is unique. 
 
 ####            Table 5 - Characteristics of each variety, as analysed              
 |              | sepal length | sepal width  | petal length | petal width
