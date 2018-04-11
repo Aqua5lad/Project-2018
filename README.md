@@ -14,6 +14,7 @@ This data set recorded the species of each Iris (3 were identified), and the mea
 ### 1.Statistical analysis of the dataset
 A python program called NumpyData was written to analyse the whole dataset and identify the maximum, minimum and mean values of the iris measurements, together with their standard deviations. The results of this analysis are shown in the following table.
 
+####            Table 1 - Statistics for the entire Iris dataset                
 |              | sepal length | sepal width  | petal length | petal width
 |------------- | -------------| -------------| -------------| -------------
 |Maximum (cm)  |     7.9      |      4.4     |     6.9      |      2.5    
@@ -21,7 +22,7 @@ A python program called NumpyData was written to analyse the whole dataset and i
 |Mean    (cm)  |     5.843    |      3.054   |     3.759    |      1.199    
 |Std.Deviation |     0.825    |      0.432   |     1.759    |      0.761
 
-#### Table 1 - Statistics for the entire Iris dataset
+
 
 
 |              | sepal length | sepal width  | petal length | petal width
