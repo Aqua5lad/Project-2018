@@ -52,7 +52,7 @@ A python program called NumpyData was written to analyse the whole dataset and i
 
 On reviewing the previous tables, we can make the following observations. The Virginica variety has the largest measurements, except for sepal width. The Setosa variety has the smallest measurements, except for sepal width, where it's largest. The Versicolor variety falls in between largest and smallest measurements on all characteristics except for sepal width, where it's smallest.
 
-Indeed the ranking of the varieties by variable value, as noted in Table 5 (below), may suggest the nature of this variable (sepal width) differs from the other three insofaras the variety ranking diverges from the general pattern of the other variables. 
+Indeed the ranking of the varieties by variable value, as noted in Table 5 (below), may suggest the nature of this variable (sepal width) differs from the other three insofar as the variety ranking, on this variable, diverges from that based on the other variables. 
 
 ####            Table 5 - Ranking of varieties, by variable value         
 |              | sepal length | sepal width  | petal length | petal width
@@ -62,9 +62,19 @@ Indeed the ranking of the varieties by variable value, as noted in Table 5 (belo
 |Minimum       |   Setosa     |  Versicolor  |   Setosa     |   Setosa  
 
 
-On closer examination of table 1, I noticed that the data in column 2 (Sepal Width) showed the lowest Standard Deviation of all the variables. This would suggest a clustering of values around the mean. I decided to explore this further by plotting a histogram of these Sepal Width values, using the [matplotlib](https://matplotlib.org/) program in python. The result is as follows:
+On closer examination of table 1, I noticed that the data in column 2 (Sepal Width) showed the lowest Standard Deviation from the mean (0.432), of all the variables. This would suggest a clustering of values around the mean. I decided to explore this further by plotting a histogram of these Sepal Width values, using the [matplotlib](https://matplotlib.org/) program in python. The result is as follows:
 
+####            Histogram 1 - Distribution of Sepal Width values in the dataset   
 ![Histogram 1](https://github.com/Aqua5lad/Project-2018/blob/master/IRIS%20Hist1.png)
+
+While not quite a normal distribtion ("Bell Curve"), it does show a concentaration of observations in & around the mean. So the variation of sepal widths across the 150 flowers measured was close to what one might expect.
+
+In contrast to this, with a standard deviation of 1.759, the variable for petal length suggests a widely dispersed distribution, worthy of further investigation. So the petal lengths have been plotted in a histogram, once again using the [matplotlib](https://matplotlib.org/) program in python. The result is as follows:
+![Histogram 2](https://github.com/Aqua5lad/Project-2018/blob/master/IRIS%20Hist2.png)
+
+
+
+
 
 
 
