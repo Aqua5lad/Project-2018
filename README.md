@@ -19,17 +19,16 @@ A python program called NumpyData was written to analyse the whole dataset and i
 |------------- | -------------| -------------| -------------| -------------
 |Maximum (cm)  |     7.9      |      4.4     |     6.9      |      2.5    
 |Minimum (cm)  |     4.3      |      2.0     |     1.0      |      0.1   
-|Mean    (cm)  |     5.843    |      3.054   |     3.759    |      1.199    
-|Std.Deviation |     0.825    |      0.432   |     1.759    |      0.761
+|Mean    (cm)* |     5.843    |      3.054   |     3.759    |      1.199    
+|Std.Deviation*|     0.825    |      0.432   |     1.759    |      0.761
 
-   
 
 #### Table 2 - Statistics for the Iris-Setosa subset
 |              | sepal length | sepal width  | petal length | petal width
 |------------- | -------------| -------------| -------------| -------------
 |Maximum (cm)  |     5.8      |      4.4     |     1.9      |      0.6    
 |Minimum (cm)  |     4.3      |      2.3     |     1.0      |      0.1   
-|Mean    (cm)  |     5.006    |      3.420   |     1.465    |      0.245    
+|Mean    (cm)* |     5.006    |      3.420   |     1.465    |      0.245    
 
    
 
@@ -38,7 +37,7 @@ A python program called NumpyData was written to analyse the whole dataset and i
 |------------- | -------------| -------------| -------------| -------------
 |Maximum (cm)  |     7.0      |      3.4     |     5.1      |      1.8  
 |Minimum (cm)  |     4.9      |      2.0     |     3.0      |      1.0   
-|Mean    (cm)  |     5.941    |      2.769   |     4.263    |      1.327
+|Mean    (cm)* |     5.941    |      2.769   |     4.263    |      1.327
 
    
 
@@ -47,7 +46,9 @@ A python program called NumpyData was written to analyse the whole dataset and i
 |------------- | -------------| -------------| -------------| -------------
 |Maximum (cm)  |     7.9      |      3.8     |     6.9      |      2.5    
 |Minimum (cm)  |     4.9      |      2.2     |     4.5      |      1.4  
-|Mean    (cm)  |     6.602    |      2.973   |     5.561    |      2.031   
+|Mean    (cm)* |     6.602    |      2.973   |     5.561    |      2.031   
+
+* all rounded to 3 decimals   
 
 
 
