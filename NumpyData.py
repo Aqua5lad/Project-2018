@@ -75,7 +75,71 @@ print("Column 3 Setosa mean is:",'{:0.3f}'.format(col3Setomean))
 print("Column 4 Setosa mean is:",'{:0.3f}'.format(col4Setomean))
     # display the mean for each Column in the Setosa sample
 
-    # NB: Minor ERROR - all calculated results are being ROUNDED
+        # NB: - all calculated results are being ROUNDED.
+
+col1Setomax = (np.max(data[0:49,0]))
+print("Column 1 Setosa max is:",'{:0.3f}'.format(col1Setomax))
+col2Setomax = (np.max(data[0:49,1]))
+col3Setomax = (np.max(data[0:49,2]))
+col4Setomax = (np.max(data[0:49,3]))
+
+print("Column 2 Setosa max is:",'{:0.3f}'.format(col2Setomax))
+print("Column 3 Setosa max is:",'{:0.3f}'.format(col3Setomax))
+print("Column 4 Setosa max is:",'{:0.3f}'.format(col4Setomax))
+    # display the max for each Column in the Setosa sample
+
+col1Setomin = (np.min(data[0:49,0]))
+print("Column 1 Setosa min is:",'{:0.3f}'.format(col1Setomin))
+col2Setomin = (np.min(data[0:49,1]))
+col3Setomin = (np.min(data[0:49,2]))
+col4Setomin = (np.min(data[0:49,3]))
+
+print("Column 2 Setosa min is:",'{:0.3f}'.format(col2Setomin))
+print("Column 3 Setosa min is:",'{:0.3f}'.format(col3Setomin))
+print("Column 4 Setosa min is:",'{:0.3f}'.format(col4Setomin))
+    # display the min for each Column in the Setosa sample    
+    
+col1Setostd = (np.std(data[0:49,0]))
+col2Setostd = (np.std(data[0:49,1]))
+col3Setostd = (np.std(data[0:49,2]))
+col4Setostd = (np.std(data[0:49,3]))
+
+print("Column 1 Std Dev is:",'{:0.3f}'.format(col1std))
+print("Column 2 Std Dev is:",'{:0.3f}'.format(col2std))
+print("Column 3 Std Dev is:",'{:0.3f}'.format(col3std))
+print("Column 4 Std Dev is:",'{:0.3f}'.format(col4std))    
+     # display the Std Deviation for each Column in the Setosa sample   
+
+    # NB: - these results are identical to the whole dataset. ! hmmm??
+
+col1Versimean = (np.mean(data[50:99,0]))
+print("Column 1 Versicolor mean is:",'{:0.3f}'.format(col1Versimean))
+col2Versimean = (np.mean(data[50:99,1]))
+col3Versimean = (np.mean(data[50:99,2]))
+col4Versimean = (np.mean(data[50:99,3]))
+
+print("Column 2 Versicolor mean is:",'{:0.3f}'.format(col2Versimean))
+print("Column 3 Versicolor mean is:",'{:0.3f}'.format(col3Versimean))
+print("Column 4 Versicolor mean is:",'{:0.3f}'.format(col4Versimean))
+
+col1Versimax = (np.max(data[50:99,0]))
+print("Column 1 Versicolor max is:",'{:0.3f}'.format(col1Versimax))
+col2Versimax = (np.max(data[50:99,1]))
+col3Versimax = (np.max(data[50:99,2]))
+col4Versimax = (np.max(data[50:99,3]))
+print("Column 2 Versicolor max is:",'{:0.3f}'.format(col2Versimax))
+print("Column 3 Versicolor max is:",'{:0.3f}'.format(col3Versimax))
+print("Column 4 Versicolor max is:",'{:0.3f}'.format(col4Versimax))
+
+col1Versimin = (np.min(data[50:99,0]))
+col2Versimin = (np.min(data[50:99,1]))
+col3Versimin = (np.min(data[50:99,2]))
+col4Versimin = (np.min(data[50:99,3]))
+print("Column 1 Versicolor min is:",'{:0.3f}'.format(col1Versimin))
+print("Column 2 Versicolor min is:",'{:0.3f}'.format(col2Versimin))
+print("Column 3 Versicolor min is:",'{:0.3f}'.format(col3Versimin))
+print("Column 4 Versicolor min is:",'{:0.3f}'.format(col4Versimin))
+
 
     
 
