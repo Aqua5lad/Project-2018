@@ -54,7 +54,7 @@ On reviewing the previous tables, we can make the following observations. The Vi
 
 
 
-####            Table 1 - Characteristics of each variety, as analysed              
+####            Table 5 - Characteristics of each variety, as analysed              
 |              | sepal length | sepal width  | petal length | petal width
 |------------- | -------------| -------------| -------------| -------------
 |Maximum       |  Virginica   |   Setosa     |  Virginica   |  Virginica   
