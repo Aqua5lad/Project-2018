@@ -29,8 +29,7 @@ A python program called NumpyData was written to analyse the whole dataset and i
 |Maximum (cm)  |     5.8      |      4.4     |     1.9      |      0.6    
 |Minimum (cm)  |     4.3      |      2.3     |     1.0      |      0.1   
 |Mean    (cm)* |     5.006    |      3.420   |     1.465    |      0.245    
-
-   
+  
 
 #### Table 3 - Statistics for the Iris-Versicolor subset
 |              | sepal length | sepal width  | petal length | petal width
@@ -38,8 +37,7 @@ A python program called NumpyData was written to analyse the whole dataset and i
 |Maximum (cm)  |     7.0      |      3.4     |     5.1      |      1.8  
 |Minimum (cm)  |     4.9      |      2.0     |     3.0      |      1.0   
 |Mean    (cm)* |     5.941    |      2.769   |     4.263    |      1.327
-
-   
+  
 
 #### Table 4 - Statistics for the Iris-Virginica subset
 |              | sepal length | sepal width  | petal length | petal width
@@ -50,7 +48,18 @@ A python program called NumpyData was written to analyse the whole dataset and i
 
 * all rounded to 3 decimals   
 
+### 2. Initial Observations based on the statistical analysis of the dataset
 
+On reviewing the previous tables, we can make the following observations. The Virginica variety has largest measurements, except for sepal width. The Setosa variety has the smallest measurements, except for sepal width, where it's largest. The Versicolor variety falls in between largest and smallest measurements on all characteristics except for sepal width, where it's smallest.
+
+
+
+####            Table 1 - Characteristics of each variety, as analysed              
+|              | sepal length | sepal width  | petal length | petal width
+|------------- | -------------| -------------| -------------| -------------
+|Maximum       |  Virginica   |   Setosa     |  Virginica   |  Virginica   
+|Medium        |  Versicolor  |  Virginica   |  Versicolor  |  Versicolor    
+|Minimum       |   Setosa     |  Versicolor  |   Setosa     |   Setosa  
 
 
 
