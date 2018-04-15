@@ -11,17 +11,18 @@ This data set recorded the species of each Iris (3 were identified), and the mea
 
 ## Investigation of the Problem
 
-###Project Methodology
+### Project Methodology
 The dataset is investigated by creating a python program called NumpyData.py which will do the following: 
 
-	•	1. Load the iris dataset as a .csv file from within the Project-2018 repository
-	•	2. Load the NumPy and Matplotlib python libraries to enable statistical analysis and graphical representations.
-	•	3. Analyse the dataset to find the min, max and mean values of each variable
-	•	4. Further analyse the data for each variety subset, as to the min, max and mean values of each variable
-	•	5. generate graphics to illustrate some differences in data distributions, by variable.
+1. Load the iris dataset as a .csv file from within the Project-2018 repository
+2. Load the NumPy and Matplotlib python libraries to enable statistical analysis and graphical representations.
+3. Analyse the dataset to find the min, max and mean values of each variable
+4. Further analyse the data for each variety subset, as to the min, max and mean values of each variable
+5. generate graphics to illustrate some differences in data distributions, by variable.
+
 
 ### 1.Statistical analysis of the dataset
-A python program called NumpyData was written to analyse the whole dataset and identify the maximum, minimum and mean values of the iris measurements, together with their standard deviations. The results of this analysis are shown in the following table.
+The python program 'NumpyData' was written to analyse the dataset and identify the maximum, minimum and mean values of the iris measurements, together with their standard deviations. The results of this analysis are shown in the following table.
 
 ####            Table 1 - Statistics for the entire Iris dataset                
 |              | sepal length | sepal width  | petal length | petal width
