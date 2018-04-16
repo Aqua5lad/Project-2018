@@ -164,10 +164,25 @@ print("Column 4 Virginica min is:",'{:0.3f}'.format(col4Virgmin))
 
 # Selecting data to plt Histograms:
 plt.hist(col2)
+plt.title('Histogram of Sepal Widths')
 plt.ylabel('Sepal Width (cm)')
 plt.show()
 
 plt.hist(col3)
+plt.title('Histogram of Petal Lengths')
 plt.ylabel('Petal Length (cm)')
 plt.show()
+
+# learnt labeling cmds at https://matplotlib.org/gallery/pyplots/pyplot_text.html#sphx-glr-gallery-pyplots-pyplot-text-py
+
+
+
+
+ 
+
+# IDEA for using a repeatable function:
+# def colmean = (np.mean(data[r,c]))
+    # where r = row number, and c = column number
+    # print("mean of column [c] for range in row[r] is: ")
+
 
