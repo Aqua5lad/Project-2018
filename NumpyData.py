@@ -17,6 +17,7 @@ col2 = (data[:,1])
 col3 = (data[:,2])  
 col4 = (data[:,3])  
      # name the columns, so I can call them later if/when required
+     # e.g. for histogram plots
 
 col1mean = (np.mean(data[:,0]))
     # find the mean of the values in Column 1 (per method from Ian's video 'Numpy')
@@ -161,6 +162,18 @@ print("Column 2 Virginica min is:",'{:0.3f}'.format(col2Virgmin))
 print("Column 3 Virginica min is:",'{:0.3f}'.format(col3Virgmin))
 print("Column 4 Virginica min is:",'{:0.3f}'.format(col4Virgmin))
 
+# Selecting data to plt Histograms:
+plt.hist(col2)
+plt.xlabel('Sepal Width')
+plt.show()
+
+plt.hist(col3)
+plt.xlabel('Petal Length')
+plt.show()
+
+
+
+ 
 
 # IDEA for using a repeatable function:
 # def colmean = (np.mean(data[r,c]))
