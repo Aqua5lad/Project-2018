@@ -21,7 +21,7 @@ The dataset is investigated by creating a python program called NumpyData.py whi
 5. generate graphics to illustrate some differences in data distributions, by variable.
 
 
-### 1.Statistical analysis of the dataset
+### 1. Statistical analysis of the dataset
 The python program 'NumpyData' was written to analyse the dataset and identify the maximum, minimum and mean values of the iris measurements, together with their standard deviations. The results of this analysis are shown in the following table.
 
 ####            Table 1 - Statistics for the entire Iris dataset                
@@ -32,7 +32,7 @@ The python program 'NumpyData' was written to analyse the dataset and identify t
 |Mean    (cm)* |     5.843    |      3.054   |     3.759    |      1.199    
 |Std.Deviation*|     0.825    |      0.432   |     1.759    |      0.761
 
-### 1.Statistical analysis of the data subsets for each variety
+### 2. Statistical analysis of the data subsets for each variety
 
 A similar statistical analysis, by Iris variety, was carried out, using the NumpyData program. The results of this analysis are shown in the following three tables.
 
@@ -61,7 +61,7 @@ A similar statistical analysis, by Iris variety, was carried out, using the Nump
 
 * all rounded to 3 decimals   
 
-### 2. Initial Observations based on the statistical analysis of the dataset, and its varietal subsets.
+### 3. Some Observations based on the statistical analysis of the dataset, and its varietal subsets.
 
 On reviewing the previous tables, we can make the following observations. The Virginica variety has the largest measurements, except for sepal width. The Setosa variety has the smallest measurements, except for sepal width, where it's largest. The Versicolor variety falls in between largest and smallest measurements on all characteristics except for sepal width, where it's smallest.
 
