@@ -191,7 +191,7 @@ plt.xlabel('Petal Width (cm)')
 plt.ylabel('Frequency')
 plt.show()
 
-# now plot the Petal Lengths by Variety:
+# now to plot the Petal Lengths by Variety:
 col31 = (data[0:49,2]) 
 col32 = (data[50:99,2])
 col33 = (data[100:149,2])
@@ -214,17 +214,11 @@ plt.xlabel('Sepal Length (cm)')
 plt.ylabel('Frequency')
 plt.show()
 
- 
+# method for Histogram 3-way layout found on Stack overflow:
+# https://stackoverflow.com/questions/24319505/how-can-one-display-images-side-by-side-in-a-github-readme-md
 
 
 
-
-
-
-
-# ? Poss display multiple diagrams together:
-# ? plt.data(kind='box', subplots=True, layout=(2,2), sharex=False, sharey=False)
-# ? plt.show()
 
 # IDEA for using a repeatable function:
 # def colmean = (np.mean(data[r,c]))
