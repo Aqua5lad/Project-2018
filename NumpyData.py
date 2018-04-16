@@ -190,7 +190,41 @@ plt.title('Histogram of Petal Widths')
 plt.xlabel('Petal Width (cm)')
 plt.ylabel('Frequency')
 plt.show()
+
+# now plot the Petal Lengths by Variety:
+col31 = (data[0:49,2]) 
+col32 = (data[50:99,2])
+col33 = (data[100:149,2])
+
+plt.hist(col31)
+plt.title('Sepal Lengths of Setosa variety')
+plt.xlabel('Sepal Length (cm)')
+plt.ylabel('Frequency')
+plt.show()
+
+plt.hist(col32)
+plt.title('Sepal Lengths of Versicolor variety')
+plt.xlabel('Sepal Length (cm)')
+plt.ylabel('Frequency')
+plt.show()
+
+plt.hist(col33)
+plt.title('Sepal Lengths of Virginica variety')
+plt.xlabel('Sepal Length (cm)')
+plt.ylabel('Frequency')
+plt.show()
+
  
+
+
+
+
+
+
+
+# ? Poss display multiple diagrams together:
+# ? plt.data(kind='box', subplots=True, layout=(2,2), sharex=False, sharey=False)
+# ? plt.show()
 
 # IDEA for using a repeatable function:
 # def colmean = (np.mean(data[r,c]))
