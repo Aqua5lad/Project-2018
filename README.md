@@ -79,7 +79,7 @@ On closer examination of table 1, it's noticeable that the data in column 2 (Sep
   
 ![Histogram 1](https://github.com/Aqua5lad/Project-2018/blob/master/Hist%20SW.png)
 
-While not quite a normal distribtion ("Bell Curve"), it does show a concentration of observations in & around the mean value of 4.4cm. So the variation of sepal widths across the 150 flowers measured was close to what one might expect.
+While not quite a normal distribtion ("Bell Curve"), it does show a concentration of observations in & around the mean of 3.054 cm. So the variation of sepal widths across the 150 flowers measured was not very pronounced.
 
 In contrast to this, with a standard deviation of 1.759, the variable for petal length suggests a widely dispersed distribution, worthy of further investigation. So the petal lengths have been plotted in a histogram, once again using the [matplotlib](https://matplotlib.org/) program in python. The result is as follows:
 
