@@ -82,7 +82,7 @@ While not quite a normal distribtion ("Bell Curve"), it does show a concentratio
 In contrast to this, with a standard deviation of 1.759, the variable for petal length suggests a widely dispersed distribution, worthy of further investigation. So the petal lengths have been plotted in a histogram, once again using the [matplotlib](https://matplotlib.org/) program in python. The result is as follows:
 
 ####            Histogram 2 - Distribution of Petal length values in the dataset   
-![Histogram 2](Project-2018/Hist Petal Length.png)
+![Histogram 2](https://github.com/Aqua5lad/Project-2018/blob/master/Hist%20Petal%20Length.png)
 
 While the mean value for Petal length is 3.8cm, most values were observed to be in two distinct clusters, one between 1cm and 2.2cm, and the other between 4cm and 5.7cm.  
 
