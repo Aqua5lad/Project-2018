@@ -85,7 +85,7 @@ In contrast to this, with a standard deviation of 1.759, the variable for petal 
 
 ![Histogram 2](https://github.com/Aqua5lad/Project-2018/blob/master/Hist%20PL.png)
 
-While the mean value for Petal length is 3.8cm, few observations were seen at or near this value. The distribution was mainly found in two distinct clusters, one between 1cm and 2.2cm, and the other between 4cm and 5.7cm.  
+While the mean value for Petal length is 3.8cm, few observations were seen at or near this value. The distribution was mainly found in two distinct clusters, one between 1cm and 2.2cm, and the other between 4cm and 5.7cm. This unusual distribution merited further a  investigation, using the NumpyData program to plot the Petal Length values by Iris variety.
 
 
 
