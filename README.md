@@ -91,7 +91,7 @@ While the mean value for Petal length is 3.8cm, few observations were seen at or
 
    Setosa                               |            Versicolor                 |        Virginica
 :--------------------------------------:|:-------------------------------------:|:-----------------
-![](https://...Ocean.png)               |  ![](https://...Dark.png)             |
+![](https://github.com/Aqua5lad/Project-2018/blob/master/PL%20Virg.png)| ![](https://github.com/Aqua5lad/Project-2018/blob/master/PL%20Versi.png)                |  ![](https://github.com/Aqua5lad/Project-2018/blob/master/PL%20Virg.png)             |
 
 
 
