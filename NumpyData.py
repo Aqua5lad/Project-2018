@@ -176,13 +176,26 @@ plt.ylabel('Frequency')
 plt.show()
 
 # learnt labeling cmds at https://matplotlib.org/gallery/pyplots/pyplot_text.html#sphx-glr-gallery-pyplots-pyplot-text-py
+# also useful ref (though code used is R): http://www.lac.inpe.br/~rafael.santos/Docs/R/CAP386/IntroEDA-Iris.html
 
+# Add the remaining two variables to plt Histograms:
+plt.hist(col1)
+plt.title('Histogram of Sepal Lengths')
+plt.xlabel('Sepal Length (cm)')
+plt.ylabel('Frequency')
+plt.show()
 
-
-
+plt.hist(col4)
+plt.title('Histogram of Petal Widths')
+plt.xlabel('Petal Width (cm)')
+plt.ylabel('Frequency')
+plt.show()
  
 
 # IDEA for using a repeatable function:
 # def colmean = (np.mean(data[r,c]))
     # where r = row number, and c = column number
     # print("mean of column [c] for range in row[r] is: ")
+
+
+# Listen. Strange women lying in ponds distributing swords is no basis for a system of government.
