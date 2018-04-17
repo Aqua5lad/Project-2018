@@ -8,28 +8,26 @@
 import numpy as np
 import matplotlib.pyplot as plt
     # importing the numpy & matplot libraries to help manipulate the data, and giving them shorthand names
-    # Alternately I could import these into iPython while testing 
-    # remember that I'm working on a multivariate dataset
+    # Alternately I could import these into iPython while testing. Remember I'm working on a multivariate dataset
 data = np.genfromtxt('Data/Iris.csv', delimiter=',')
     # importing the iris dataset, as a csv file (syntax found on stack overflow)
 col1 = (data[:,0])    
 col2 = (data[:,1])  
 col3 = (data[:,2])  
 col4 = (data[:,3])  
-     # name the columns, so I can call them later if/when required
-     # e.g. for histogram plots
+     # name the columns, so I can call them later if/when required e.g. for histogram plots
 
-col1mean = (np.mean(data[:,0]))
-    # find the mean of the values in Column 1 (per method from Ian's video 'Numpy')
-col2mean = (np.mean(data[:,1]))  
-col3mean = (np.mean(data[:,2]))
-col4mean = (np.mean(data[:,3]))   
-    # likewise for the other 3 data columns
-print("Column 1 mean is:",'{:0.3f}'.format(col1mean))
-    # display the Column 1 mean to 3 decimal places (my preference)
-print("Column 2 mean is:",'{:0.3f}'.format(col2mean))
-print("Column 3 mean is:",'{:0.3f}'.format(col3mean))
-print("Column 4 mean is:",'{:0.3f}'.format(col4mean))    
+    #define the NEW FUNCTION for column mean (prototyped in FuncTest.py):
+def colmean(colno):
+    meancol = (np.mean(data[:,colno]))
+    return meancol    
+
+print("Column 1 mean is:",'{:0.3f}'.format(colmean(0)))
+print("Column 2 mean is:",'{:0.3f}'.format(colmean(1)))
+print("Column 3 mean is:",'{:0.3f}'.format(colmean(2)))
+print("Column 4 mean is:",'{:0.3f}'.format(colmean(3)))
+
+    # YAY! took >2hrs of trial & error to get right, w/help from Ian's "Defining functions" video 
 
 col1max = (np.max(data[:,0]))
     # find the max of the values in Column 1 (guessed this, since .mean gave the mean
