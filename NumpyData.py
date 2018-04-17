@@ -15,9 +15,9 @@ col1 = (data[:,0])
 col2 = (data[:,1])  
 col3 = (data[:,2])  
 col4 = (data[:,3])  
-     # name the columns, so I can call them later if/when required e.g. for histogram plots
+    # name the columns, so I can call them later if required e.g. for histogram plots
 
-    #define the NEW FUNCTION for column mean (prototyped in FuncTest.py):
+    #NEW FUNCTION for column mean (prototyped in my FuncTest.py):
 def colmean(colno):
     meancol = (np.mean(data[:,colno]))
     return meancol    
@@ -29,39 +29,33 @@ print("Column 4 mean is:",'{:0.3f}'.format(colmean(3)))
 
     # YAY! took >2hrs of trial & error to get right, w/help from Ian's "Defining functions" video 
 
-col1max = (np.max(data[:,0]))
-    # find the max of the values in Column 1 (guessed this, since .mean gave the mean
-col2max = (np.max(data[:,1]))
-col3max = (np.max(data[:,2]))
-col4max = (np.max(data[:,3]))  
-print("Column 1 max is:",'{:0.3f}'.format(col1max))
-    # display the Column 1 max to 3 decimal places 
-print("Column 2 max is:",'{:0.3f}'.format(col2max))
-print("Column 3 max is:",'{:0.3f}'.format(col3max))
-print("Column 4 max is:",'{:0.3f}'.format(col4max))
+    # NEW FUNCTIONS for column max, min, std dev:
+def colmax(colno):
+    maxcol = (np.max(data[:,colno]))
+    return maxcol    
 
-col1min = (np.min(data[:,0]))
-col2min = (np.min(data[:,1]))
-col3min = (np.min(data[:,2]))
-col4min = (np.min(data[:,3]))  
-print("Column 1 min is:",'{:0.3f}'.format(col1min))
-    # display the Column 1 max to 3 decimal places 
-print("Column 2 min is:",'{:0.3f}'.format(col2min))
-print("Column 3 min is:",'{:0.3f}'.format(col3min))
-print("Column 4 min is:",'{:0.3f}'.format(col4min))      
+print("Column 1 max is:",'{:0.1f}'.format(colmax(0)))
+print("Column 2 max is:",'{:0.1f}'.format(colmax(1)))
+print("Column 3 max is:",'{:0.1f}'.format(colmax(2)))
+print("Column 4 max is:",'{:0.1f}'.format(colmax(3)))
 
-    # NB - lookup 'compartmentalising code into functions'
+def colmin(colno):
+    mincol = (np.min(data[:,colno]))
+    return mincol    
 
-col1std = (np.std(data[:,0]))
-    # Std.Deviation - I guessed sd first, then found 'std' function on stack overflow
-col2std = (np.std(data[:,1]))
-col3std = (np.std(data[:,2]))
-col4std = (np.std(data[:,3]))
+print("Column 1 min is:",'{:0.1f}'.format(colmin(0)))
+print("Column 2 min is:",'{:0.1f}'.format(colmin(1)))
+print("Column 3 min is:",'{:0.1f}'.format(colmin(2)))
+print("Column 4 min is:",'{:0.1f}'.format(colmin(3)))   
 
-print("Column 1 Std Dev is:",'{:0.3f}'.format(col1std))
-print("Column 2 Std Dev is:",'{:0.3f}'.format(col2std))
-print("Column 3 Std Dev is:",'{:0.3f}'.format(col3std))
-print("Column 4 Std Dev is:",'{:0.3f}'.format(col4std))
+def colstd(colno):
+    stdcol = (np.std(data[:,colno]))
+    return stdcol    
+
+print("Column 1 std dev is:",'{:0.3f}'.format(colstd(0)))
+print("Column 2 std dev is:",'{:0.3f}'.format(colstd(1)))
+print("Column 3 std dev is:",'{:0.3f}'.format(colstd(2)))
+print("Column 4 std dev is:",'{:0.3f}'.format(colstd(3)))
    
     # Now lets split out the 3 varieties in the dataset, for closer analysis ...
 
@@ -216,12 +210,6 @@ plt.show()
 # https://stackoverflow.com/questions/24319505/how-can-one-display-images-side-by-side-in-a-github-readme-md
 
 
-
-
-# IDEA for using a repeatable function:
-# def colmean = (np.mean(data[r,c]))
-    # where r = row number, and c = column number
-    # print("mean of column [c] for range in row[r] is: ")
 
 
 # Listen. Strange women lying in ponds distributing swords is no basis for a system of government.
