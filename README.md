@@ -9,7 +9,10 @@ Fisher's Iris data set is a multivariate data set<sup>[1](https://en.wikipedia.o
 
 This data set recorded the species of each Iris (3 were identified), and the measurement of 4 variables on each flower. These variables were the sepal length, sepal width, petal length and petal width (in centimetres). It was performed on 50 flowers, from each of 3 species of Iris, resulting in a total of 750 observations.
 
-## Investigation of the Problem
+## Researching the background to this Problem
+
+
+## Investigation of the Problem with data analysis
 
 ### Project Methodology
 The dataset is investigated by creating a python program called NumpyData.py which will do the following: 
