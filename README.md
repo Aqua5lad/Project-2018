@@ -10,6 +10,17 @@ Fisher's Iris data set is a multivariate data set<sup>[1](https://en.wikipedia.o
 This data set recorded the species of each Iris (3 were identified), and the measurement of 4 variables on each flower. These variables were the sepal length, sepal width, petal length and petal width (in centimetres). It was performed on 50 flowers, from each of 3 species of Iris, resulting in a total of 750 observations.
 
 ## Researching the background to this Problem
+The Wikipedia entry <sup>[4](https://en.wikipedia.org/wiki/Iris_flower_data_set) notes that this data set became a typical test case for many statistical classification techniques in machine learning such as support vector machines, while its use in cluster analysis is less common. Wikipedia also notes that the data set is a good example to explain the difference between supervised and unsupervised techniques in data mining. Data mining is the process of discovering patterns in large data sets involving methods at the intersection of machine learning, statistics, and database systems.
+  
+Searching on the term 'Fisher Iris Data Set' returns a number of research studies, of which the following were briefly assessed.
+
+A Thesis on Machine learning algorithms by Yu Yang<sup>[5](https://www.theseus.fi/bitstream/handle/10024/64785/yang_yu.pdf?sequence=1&isAllowed=y)  sets as an objective that "the computer should have the ability to aggregate three different classifications of Iris flower to three categories, The users do not need to tell the computer which class the Iris belongs to, the computer can recognize them all by itself."  The writer achieves this by using clustering methodologies so as to allow the program to identify which datapoint belongs in each variety, based on which cluster they fall into. The employment of 3D scatterplots gave a clear visual representation, allowing the clusters to be easily identified.
+
+A Statistical Analysis of the Iris Flower Dataset Patrick S. Hoey University of Massachusetts At Lowell 
+plotted the dataset onto scatterplots to determine patterns in the data in relation to the Iris classifications. Second, developed an application in Java that will run a series of methods on the dataset to extract relevant statistical information from the dataset. The employment of 2D scatterplots gave a visual representation which assist in identifying clusters.
+
+http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf
+
 
 
 ## Investigation of the Problem with data analysis
