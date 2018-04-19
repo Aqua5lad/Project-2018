@@ -84,10 +84,9 @@ Indeed the ranking of the varieties by variable value, as noted in Table 5 (belo
 
 On closer examination of table 1, it's noticeable that the data in column 2 (Sepal Width) showed the lowest Standard Deviation (0.432) from the mean, of all the variables. This infers a clustering of values around the mean. This is explored further by plotting a histogram of these Sepal Width values, using the [matplotlib](https://matplotlib.org/) program in python. While not quite a normal distribtion ("Bell Curve"), it does show (below, left) a concentration of observations in & around the mean of 3.054 cm. So the variation of sepal widths across the 150 flowers measured was not very pronounced.
   
- Sepal Width                            |            Petal Length                |          
-:--------------------------------------:|:-------------------------------------:|:----------
-![Histogram 1](https://github.com/Aqua5lad/Project-2018/blob/master/Hist%20SW.png)| 
-![Histogram 2](https://github.com/Aqua5lad/Project-2018/blob/master/Hist%20PL.png)|  
+ Sepal Width                            |            Petal Length                 |          
+:--------------------------------------:|:----------------------------------------|
+![Histogram 1](https://github.com/Aqua5lad/Project-2018/blob/master/Hist%20SW.png)| ![Histogram 2](https://github.com/Aqua5lad/Project-2018/blob/master/Hist%20PL.png)|  
   
 In contrast to this, with a standard deviation of 1.759, the variable for petal length suggests a widely dispersed distribution, worthy of further investigation. So the petal lengths have also been plotted in a histogram, once again using the [matplotlib](https://matplotlib.org/) program in python. The result is shown above, in the second histogram.
 
