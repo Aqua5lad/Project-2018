@@ -98,7 +98,15 @@ While the mean value for Petal length is 3.8cm, few observations were seen at or
 :--------------------------------------:|:-------------------------------------:|:---------------------------------------
 ![](https://github.com/Aqua5lad/Project-2018/blob/master/PL%20Setosa.png)| ![](https://github.com/Aqua5lad/Project-2018/blob/master/PL%20Vers.png)                |  ![](https://github.com/Aqua5lad/Project-2018/blob/master/PL%20Virg.png)             |
 
+This analysis reveals a significant difference in distribution between Setosa petal lengths, which follow a normal distribution, clustered around the mean of 1.465 with a very low standard deviation of just 0.173, and the far more scattered distributions of petal lengths in the Versicolor and Virginica varieties. This is illustrated in the Histogram above, together with the statistics in table 6, below.
 
+####            Table 6 - Statistics for Petal Length, by Iris Variety             
+|              |    Setosa    |  Versicolor  |   Virginica  | 
+|------------- | -------------| -------------| -------------| ---
+|Maximum (cm)  |     1.9      |      5.1     |     6.9      |     
+|Minimum (cm)  |     1.0      |      3.0     |     4.5      |      
+|Mean    (cm)* |     1.465    |      4.263   |     5.561    |       
+|Std.Deviation*|     0.173    |      0.469   |     0.548    |      
 
 
 
