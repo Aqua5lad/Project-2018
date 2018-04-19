@@ -16,7 +16,7 @@ Searching on the term 'Fisher Iris Data Set' returns a number of research studie
 
 A Thesis on Machine learning algorithms by Yu Yang<sup>[7](https://www.theseus.fi/bitstream/handle/10024/64785/yang_yu.pdf?sequence=1&isAllowed=y)</sup> sets as an objective that "the computer should have the ability to aggregate three different classifications of Iris flower to three categories, The users do not need to tell the computer which class the Iris belongs to, the computer can recognize them all by itself."  The writer achieves this by using clustering methodologies so as to allow the program to identify which datapoint belongs in each variety, based on which cluster they fall into. The employment of 3D scatterplots gave a clear visual representation, allowing the clusters to be easily identified.
 
-A Statistical Analysis of the Iris Flower Dataset by Patrick S. Hoey of University of Massachusetts At Lowell<sup>[8]http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf)</sup> plotted the dataset onto scatterplots to determine patterns in the data in relation to the Iris classifications. Secondly, it developed an application in Java that will run a series of methods on the dataset to extract relevant statistical information from the dataset. The employment of 2D scatterplots gave a visual representation which assists in identifying clusters.
+A Statistical Analysis of the Iris Flower Dataset by Patrick S. Hoey of University of Massachusetts At Lowell<sup>[8](http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf)</sup> plotted the dataset onto scatterplots to determine patterns in the data in relation to the Iris classifications. Secondly, it developed an application in Java that will run a series of methods on the dataset to extract relevant statistical information from the dataset. The employment of 2D scatterplots gave a visual representation which assists in identifying clusters.
 
 ## Investigation of the Problem with data analysis
 
@@ -111,8 +111,7 @@ While the mean value for Petal length is 3.8cm, few observations were seen at or
 
 
 
-
-
+## Summary of Investigations
 
 
 
