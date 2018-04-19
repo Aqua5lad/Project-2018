@@ -88,7 +88,7 @@ On closer examination of table 1, it's noticeable that the data in column 2 (Sep
 :--------------------------------------:|:----------------------------------------|
 ![Histogram 1](https://github.com/Aqua5lad/Project-2018/blob/master/Hist%20SW.png)| ![Histogram 2](https://github.com/Aqua5lad/Project-2018/blob/master/Hist%20PL.png)|  
   
-In contrast to this, with a standard deviation of 1.759, the variable for petal length suggests a widely dispersed distribution, worthy of further investigation. So the petal lengths have also been plotted in a histogram, once again using the [matplotlib](https://matplotlib.org/) program in python. The result is shown above, in the second histogram.
+In contrast to this, with a standard deviation of 1.759, the variable for petal length suggests a widely dispersed distribution, worthy of further investigation. So the petal lengths have also been plotted in a histogram, once again using the [matplotlib](https://matplotlib.org/) program in python. The result is shown in the second histogram (above right).
 
 While the mean value for Petal length is 3.8cm, few observations were seen at or near this value. The distribution was mainly found in two distinct clusters, one between 1cm and 2.2cm, and the other between 4cm and 5.7cm. This unusual distribution merited further a  investigation, using the NumpyData program to plot the Petal Length values by Iris variety.
 
