@@ -154,6 +154,15 @@ print("Column 2 Virginica min is:",'{:0.3f}'.format(col2Virgmin))
 print("Column 3 Virginica min is:",'{:0.3f}'.format(col3Virgmin))
 print("Column 4 Virginica min is:",'{:0.3f}'.format(col4Virgmin))
 
+# Std Deviations for Petal Length on 3 varieties(column3):
+col3Setstd = (np.std(data[0:49,2]))
+print("Petal Length Setosa std is:",'{:0.3f}'.format(col3Setstd))
+col3Varstd = (np.std(data[50:99,2]))
+print("Petal Length Versicolor std is:",'{:0.3f}'.format(col3Varstd))
+col3Virgstd = (np.std(data[100:149,2]))
+print("Petal Length Virginica std is:",'{:0.3f}'.format(col3Virgstd))
+
+
 # Selecting data to plt Histograms:
 plt.hist(col2)
 plt.title('Histogram of Sepal Widths')
@@ -189,20 +198,20 @@ col32 = (data[50:99,2])
 col33 = (data[100:149,2])
 
 plt.hist(col31)
-plt.title('Sepal Lengths of Setosa variety')
-plt.xlabel('Sepal Length (cm)')
+plt.title('Petal Lengths of Setosa variety')
+plt.xlabel('Petal Length (cm)')
 plt.ylabel('Frequency')
 plt.show()
 
 plt.hist(col32)
-plt.title('Sepal Lengths of Versicolor variety')
-plt.xlabel('Sepal Length (cm)')
+plt.title('Petal Lengths of Versicolor variety')
+plt.xlabel('Petal Length (cm)')
 plt.ylabel('Frequency')
 plt.show()
 
 plt.hist(col33)
-plt.title('Sepal Lengths of Virginica variety')
-plt.xlabel('Sepal Length (cm)')
+plt.title('Petal Lengths of Virginica variety')
+plt.xlabel('Petal Length (cm)')
 plt.ylabel('Frequency')
 plt.show()
 
