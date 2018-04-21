@@ -63,7 +63,7 @@ print("the value at row 3, column 2 is:",data[2,1])
     # checking that I can call a value from a specific cell. Syntax is row,column
 
     # now I want to call a range of rows in each column ...
-    # NEW CODE HERE - created a generic function:
+    # NEW CODE HERE - created generic functions:
 
 def colmeanS(colno):
     meancolS = (np.mean(data[0:49,colno]))
@@ -73,19 +73,17 @@ print("(C1) Setosa S.L. mean is:",'{:0.3f}'.format(colmeanS(0)))
 print("(C2) Setosa S.W. mean is:",'{:0.3f}'.format(colmeanS(1)))
 print("(C3) Setosa P.L. mean is:",'{:0.3f}'.format(colmeanS(2)))
 print("(C4) Setosa P.W. mean is:",'{:0.3f}'.format(colmeanS(3)))
-
     # displays the mean for each Column in the Setosa sample     
 
-col1Setomax = (np.max(data[0:49,0]))
-print("Column 1 Setosa max is:",'{:0.3f}'.format(col1Setomax))
-col2Setomax = (np.max(data[0:49,1]))
-col3Setomax = (np.max(data[0:49,2]))
-col4Setomax = (np.max(data[0:49,3]))
+def colmaxS(colno):
+    maxcolS = (np.max(data[0:49,colno]))
+    return maxcolS
 
-print("Column 2 Setosa max is:",'{:0.3f}'.format(col2Setomax))
-print("Column 3 Setosa max is:",'{:0.3f}'.format(col3Setomax))
-print("Column 4 Setosa max is:",'{:0.3f}'.format(col4Setomax))
-    # display the max for each Column in the Setosa sample
+print("(C1) Setosa S.L. max is:",'{:0.3f}'.format(colmaxS(0)))
+print("(C2) Setosa S.W. max is:",'{:0.3f}'.format(colmaxS(1)))
+print("(C3) Setosa P.L. max is:",'{:0.3f}'.format(colmaxS(2)))
+print("(C4) Setosa P.W. max is:",'{:0.3f}'.format(colmaxS(3)))   
+    # displays the max for each Column in the Setosa sample
 
 col1Setomin = (np.min(data[0:49,0]))
 print("Column 1 Setosa min is:",'{:0.3f}'.format(col1Setomin))
