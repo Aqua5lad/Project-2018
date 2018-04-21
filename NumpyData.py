@@ -63,19 +63,18 @@ print("the value at row 3, column 2 is:",data[2,1])
     # checking that I can call a value from a specific cell. Syntax is row,column
 
     # now I want to call a range of rows in each column ...
-col1Setomean = (np.mean(data[0:49,0]))
-print("Column 1 Setosa mean is:",'{:0.3f}'.format(col1Setomean))
-    # figured this out with help from http://cs231n.github.io/python-numpy-tutorial/#numpy-arrays
-col2Setomean = (np.mean(data[0:49,1]))
-col3Setomean = (np.mean(data[0:49,2]))
-col4Setomean = (np.mean(data[0:49,3]))
+    # NEW CODE HERE - created a generic function:
 
-print("Column 2 Setosa mean is:",'{:0.3f}'.format(col2Setomean))
-print("Column 3 Setosa mean is:",'{:0.3f}'.format(col3Setomean))
-print("Column 4 Setosa mean is:",'{:0.3f}'.format(col4Setomean))
-    # display the mean for each Column in the Setosa sample
+def colmeanS(colno):
+    meancolS = (np.mean(data[0:49,colno]))
+    return meancolS
 
-        # NB: - all calculated results are being ROUNDED.
+print("(C1) Setosa S.L. mean is:",'{:0.3f}'.format(colmeanS(0)))
+print("(C2) Setosa S.W. mean is:",'{:0.3f}'.format(colmeanS(1)))
+print("(C3) Setosa P.L. mean is:",'{:0.3f}'.format(colmeanS(2)))
+print("(C4) Setosa P.W. mean is:",'{:0.3f}'.format(colmeanS(3)))
+
+    # displays the mean for each Column in the Setosa sample     
 
 col1Setomax = (np.max(data[0:49,0]))
 print("Column 1 Setosa max is:",'{:0.3f}'.format(col1Setomax))
