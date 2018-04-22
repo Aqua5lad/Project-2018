@@ -17,7 +17,7 @@ col3 = (data[:,2])
 col4 = (data[:,3])  
     # name the columns, so I can call them later if required e.g. for histogram plots
 
-    #NEW FUNCTION for column mean (prototyped in my FuncTest.py):
+    #NEW FUNCTION for column mean (prototyped in my FuncTest.py in the CDs-Sample-Python-Code repository):
 def colmean(colno):
     meancol = (np.mean(data[:,colno]))
     return meancol    
@@ -26,7 +26,6 @@ print("Column 1 mean is:",'{:0.3f}'.format(colmean(0)))
 print("Column 2 mean is:",'{:0.3f}'.format(colmean(1)))
 print("Column 3 mean is:",'{:0.3f}'.format(colmean(2)))
 print("Column 4 mean is:",'{:0.3f}'.format(colmean(3)))
-
     # YAY! took >2hrs of trial & error to get right, w/help from Ian's "Defining functions" video 
 
     # NEW FUNCTIONS for column max, min, std dev:
@@ -61,9 +60,8 @@ print("Column 4 std dev is:",'{:0.3f}'.format(colstd(3)))
 
 print("the value at row 3, column 2 is:",data[2,1])
     # checking that I can call a value from a specific cell. Syntax is row,column
-
     # now I want to call a range of rows in each column ...
-    # NEW CODE HERE - created generic functions:
+    # NEW generic functions for Mean, Max, Min of each Variety:
 
 def colmeanS(colno):
     meancolS = (np.mean(data[0:49,colno]))
@@ -84,72 +82,76 @@ print("(C2) Setosa S.W. max is:",'{:0.3f}'.format(colmaxS(1)))
 print("(C3) Setosa P.L. max is:",'{:0.3f}'.format(colmaxS(2)))
 print("(C4) Setosa P.W. max is:",'{:0.3f}'.format(colmaxS(3)))   
     # displays the max for each Column in the Setosa sample
-
-col1Setomin = (np.min(data[0:49,0]))
-print("Column 1 Setosa min is:",'{:0.3f}'.format(col1Setomin))
-col2Setomin = (np.min(data[0:49,1]))
-col3Setomin = (np.min(data[0:49,2]))
-col4Setomin = (np.min(data[0:49,3]))
-
-print("Column 2 Setosa min is:",'{:0.3f}'.format(col2Setomin))
-print("Column 3 Setosa min is:",'{:0.3f}'.format(col3Setomin))
-print("Column 4 Setosa min is:",'{:0.3f}'.format(col4Setomin))
-    # display the min for each Column in the Setosa sample    
     
-col1Versimean = (np.mean(data[50:99,0]))
-print("Column 1 Versicolor mean is:",'{:0.3f}'.format(col1Versimean))
-col2Versimean = (np.mean(data[50:99,1]))
-col3Versimean = (np.mean(data[50:99,2]))
-col4Versimean = (np.mean(data[50:99,3]))
+def colminS(colno):
+    mincolS = (np.min(data[0:49,colno]))
+    return mincolS
 
-print("Column 2 Versicolor mean is:",'{:0.3f}'.format(col2Versimean))
-print("Column 3 Versicolor mean is:",'{:0.3f}'.format(col3Versimean))
-print("Column 4 Versicolor mean is:",'{:0.3f}'.format(col4Versimean))
+print("(C1) Setosa S.L. min is:",'{:0.3f}'.format(colminS(0)))
+print("(C2) Setosa S.W. min is:",'{:0.3f}'.format(colminS(1)))
+print("(C3) Setosa P.L. min is:",'{:0.3f}'.format(colminS(2)))
+print("(C4) Setosa P.W. min is:",'{:0.3f}'.format(colminS(3)))      
+  # displays the min for each Column in the Setosa sample  
 
-col1Versimax = (np.max(data[50:99,0]))
-print("Column 1 Versicolor max is:",'{:0.3f}'.format(col1Versimax))
-col2Versimax = (np.max(data[50:99,1]))
-col3Versimax = (np.max(data[50:99,2]))
-col4Versimax = (np.max(data[50:99,3]))
-print("Column 2 Versicolor max is:",'{:0.3f}'.format(col2Versimax))
-print("Column 3 Versicolor max is:",'{:0.3f}'.format(col3Versimax))
-print("Column 4 Versicolor max is:",'{:0.3f}'.format(col4Versimax))
+def colmeanVr(colno):
+    meancolVr = (np.mean(data[50:99,colno]))
+    return meancolVr
 
-col1Versimin = (np.min(data[50:99,0]))
-col2Versimin = (np.min(data[50:99,1]))
-col3Versimin = (np.min(data[50:99,2]))
-col4Versimin = (np.min(data[50:99,3]))
-print("Column 1 Versicolor min is:",'{:0.3f}'.format(col1Versimin))
-print("Column 2 Versicolor min is:",'{:0.3f}'.format(col2Versimin))
-print("Column 3 Versicolor min is:",'{:0.3f}'.format(col3Versimin))
-print("Column 4 Versicolor min is:",'{:0.3f}'.format(col4Versimin))
+print("(C1) Versicolor S.L. mean is:",'{:0.3f}'.format(colmeanVr(0)))
+print("(C2) Versicolor S.W. mean is:",'{:0.3f}'.format(colmeanVr(1)))
+print("(C3) Versicolor P.L. mean is:",'{:0.3f}'.format(colmeanVr(2)))
+print("(C4) Versicolor P.W. mean is:",'{:0.3f}'.format(colmeanVr(3)))
+    # displays the mean for each Column in the Versicolor sample     
 
-col1Virgmean = (np.mean(data[100:149,0]))
-print("Column 1 Virginica mean is:",'{:0.3f}'.format(col1Virgmean))
-col2Virgmean = (np.mean(data[100:149,1]))
-col3Virgmean = (np.mean(data[100:149,2]))
-col4Virgmean = (np.mean(data[100:149,3]))
-print("Column 2 Virginica mean is:",'{:0.3f}'.format(col2Virgmean))
-print("Column 3 Virginica mean is:",'{:0.3f}'.format(col3Virgmean))
-print("Column 4 Virginica mean is:",'{:0.3f}'.format(col4Virgmean))
+def colmaxVr(colno):
+    maxcolVr = (np.max(data[50:99,colno]))
+    return maxcolVr
 
-col1Virgmax = (np.max(data[100:149,0]))
-print("Column 1 Virginica max is:",'{:0.3f}'.format(col1Virgmax))
-col2Virgmax = (np.max(data[100:149,1]))
-col3Virgmax = (np.max(data[100:149,2]))
-col4Virgmax = (np.max(data[100:149,3]))
-print("Column 2 Virginica max is:",'{:0.3f}'.format(col2Virgmax))
-print("Column 3 Virginica max is:",'{:0.3f}'.format(col3Virgmax))
-print("Column 4 Virginica max is:",'{:0.3f}'.format(col4Virgmax))
+print("(C1) Versicolor S.L. max is:",'{:0.3f}'.format(colmaxVr(0)))
+print("(C2) Versicolor S.W. max is:",'{:0.3f}'.format(colmaxVr(1)))
+print("(C3) Versicolor P.L. max is:",'{:0.3f}'.format(colmaxVr(2)))
+print("(C4) Versicolor P.W. max is:",'{:0.3f}'.format(colmaxVr(3)))
+    # displays the max for each Column in the Versicolor sample        
 
-col1Virgmin = (np.min(data[100:149,0]))
-print("Column 1 Virginica min is:",'{:0.3f}'.format(col1Virgmin))
-col2Virgmin = (np.min(data[100:149,1]))
-col3Virgmin = (np.min(data[100:149,2]))
-col4Virgmin = (np.min(data[100:149,3]))
-print("Column 2 Virginica min is:",'{:0.3f}'.format(col2Virgmin))
-print("Column 3 Virginica min is:",'{:0.3f}'.format(col3Virgmin))
-print("Column 4 Virginica min is:",'{:0.3f}'.format(col4Virgmin))
+def colminVr(colno):
+    mincolVr = (np.min(data[50:99,colno]))
+    return mincolVr
+
+print("(C1) Versicolor S.L. min is:",'{:0.3f}'.format(colminVr(0)))
+print("(C2) Versicolor S.W. min is:",'{:0.3f}'.format(colminVr(1)))
+print("(C3) Versicolor P.L. min is:",'{:0.3f}'.format(colminVr(2)))
+print("(C4) Versicolor P.W. min is:",'{:0.3f}'.format(colminVr(3)))
+    # displays the min for each Column in the Versicolor sample     
+
+def colmeanVg(colno):
+    meancolVg = (np.mean(data[100:149,colno]))
+    return meancolVg
+
+print("(C1) Virginica S.L. mean is:",'{:0.3f}'.format(colmeanVg(0)))
+print("(C2) Virginica S.W. mean is:",'{:0.3f}'.format(colmeanVg(1)))
+print("(C3) Virginica P.L. mean is:",'{:0.3f}'.format(colmeanVg(2)))
+print("(C4) Virginica P.W. mean is:",'{:0.3f}'.format(colmeanVg(3)))
+    # displays the mean for each Column in the Virginica sample    
+
+def colmaxVg(colno):
+    maxcolVg = (np.max(data[100:149,colno]))
+    return maxcolVg
+
+print("(C1) Virginica S.L. max is:",'{:0.3f}'.format(colmaxVg(0)))
+print("(C2) Virginica S.W. max is:",'{:0.3f}'.format(colmaxVg(1)))
+print("(C3) Virginica P.L. max is:",'{:0.3f}'.format(colmaxVg(2)))
+print("(C4) Virginica P.W. max is:",'{:0.3f}'.format(colmaxVg(3)))
+    # displays the max for each Column in the Virginica sample   
+
+def colminVg(colno):
+    mincolVg = (np.min(data[100:149,colno]))
+    return mincolVg
+
+print("(C1) Virginica S.L. min is:",'{:0.3f}'.format(colminVg(0)))
+print("(C2) Virginica S.W. min is:",'{:0.3f}'.format(colminVg(1)))
+print("(C3) Virginica P.L. min is:",'{:0.3f}'.format(colminVg(2)))
+print("(C4) Virginica P.W. min is:",'{:0.3f}'.format(colminVg(3)))
+    # displays the min for each Column in the Virginica sample   
 
 # Std Deviations for Petal Length on 3 varieties(column3):
 col3Setstd = (np.std(data[0:49,2]))
@@ -159,8 +161,7 @@ print("Petal Length Versicolor std is:",'{:0.3f}'.format(col3Varstd))
 col3Virgstd = (np.std(data[100:149,2]))
 print("Petal Length Virginica std is:",'{:0.3f}'.format(col3Virgstd))
 
-
-# Selecting data to plt Histograms:
+# Selecting data to plot Histograms:
 plt.hist(col2)
 plt.title('Histogram of Sepal Widths')
 plt.xlabel('Sepal Width (cm)')
@@ -176,7 +177,7 @@ plt.show()
 # learnt labeling cmds at https://matplotlib.org/gallery/pyplots/pyplot_text.html#sphx-glr-gallery-pyplots-pyplot-text-py
 # also useful ref (though code used is R): http://www.lac.inpe.br/~rafael.santos/Docs/R/CAP386/IntroEDA-Iris.html
 
-# Add the remaining two variables to plt Histograms:
+# Add the remaining two variables to plot Histograms:
 plt.hist(col1)
 plt.title('Histogram of Sepal Lengths')
 plt.xlabel('Sepal Length (cm)')
