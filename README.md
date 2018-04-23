@@ -146,11 +146,11 @@ The analysis of the data set yielded the following observations:
 
 
 ### Project References List :
-1: http://archive.ics.uci.edu/ml/datasets/Iris
+1. http://archive.ics.uci.edu/ml/datasets/Iris
 
-2: https://www.python.org
+2. https://www.python.org
 
-3: https://en.wikipedia.org/wiki/Multivariate_statistics
+3. https://en.wikipedia.org/wiki/Multivariate_statistics
 
 4. https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x
 
