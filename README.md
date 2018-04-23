@@ -19,6 +19,7 @@ Searching on the term 'Fisher Iris Data Set' returns a number of research studie
 ## Investigation of the Data Set with data analysis
 
 ### Project Methodology
+The data set follows a multi-variate structure, with columns 1 to 4 representing, respectively, sepal length, sepal width, petal length and petal width. The values for each of the three varieties are found at rows 1-50 (Setosa), 51-100 (Versicolor) and 101-150 (Virginica). 
 The data set was investigated by creating a python program called NumpyData.py, in this repository, which, when executed, performs the following tasks: 
 
 1. Loads the iris data set as a .csv file from within the Project-2018 repository
