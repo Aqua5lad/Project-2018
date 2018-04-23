@@ -19,19 +19,18 @@ Searching on the term 'Fisher Iris Data Set' returns a number of research studie
 ## Investigation of the Data Set with data analysis
 
 ### Project Methodology
-The dataset is investigated by creating a python program called NumpyData.py, in this repository, which performs the following tasks: 
+The data set was investigated by creating a python program called NumpyData.py, in this repository, which, when executed, performs the following tasks: 
 
-1. Loads the iris dataset as a .csv file from within the Project-2018 repository
+1. Loads the iris data set as a .csv file from within the Project-2018 repository
 2. Loads the NumPy and Matplotlib python libraries to enable statistical analysis and graphical representations.
-3. Analyses the dataset to find the min, max and mean values of each variable, and it's standard deviation.
-4. Further analyses the data for each variety subset, as to the min, max and mean values of each variable
-5. Generates graphics to illustrate some differences in data distributions, by variable, identifying any clusters.
+3. Analyses the data set to return the min, max and mean values of each variable, and it's standard deviation.
+4. Further analyses the data for each varietal subset, as to the min, max and mean values of each variable.
+5. Generates the graphics used in this README to illustrate some differences in data distributions, by variable, identifying any clusters.
 
+### 1. Statistical analysis of the data set
+The python program 'NumpyData' was written to analyse the data set and identify the maximum, minimum and mean values of the iris measurements, together with their standard deviations. The results of this analysis are shown in the following table.
 
-### 1. Statistical analysis of the dataset
-The python program 'NumpyData' was written to analyse the dataset and identify the maximum, minimum and mean values of the iris measurements, together with their standard deviations. The results of this analysis are shown in the following table.
-
-####            Table 1 - Statistics for the entire Iris dataset                
+####            Table 1 - Statistics for the entire Iris data set                
 |              | sepal length | sepal width  | petal length | petal width
 |------------- | -------------| -------------| -------------| -------------
 |Maximum (cm)  |     7.9      |      4.4     |     6.9      |      2.5    
@@ -68,7 +67,7 @@ A similar statistical analysis, by Iris variety, was carried out, using the Nump
 
 * (rounded to 3 decimals)   
 
-### 3. Observations based on the statistical analysis of the dataset, and its varietal subsets.
+### 3. Observations based on the statistical analysis of the data set, and its varietal subsets.
 
 On reviewing the previous tables, one can make the following observations. The Virginica variety has the largest measurements, except for sepal width. The Setosa variety has the smallest measurements, except for sepal width, where it's largest. The Versicolor variety falls in between largest and smallest measurements on all characteristics except for sepal width, where it's smallest.
 
