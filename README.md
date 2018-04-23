@@ -133,7 +133,6 @@ This analysis reveals a significant difference in distribution between Setosa pe
 
 
 ### Project References List :
-
 1: http://archive.ics.uci.edu/ml/datasets/Iris
 
 2: https://www.python.org
@@ -149,8 +148,6 @@ This analysis reveals a significant difference in distribution between Setosa pe
 7. https://www.theseus.fi/bitstream/handle/10024/64785/yang_yu.pdf?sequence=1&isAllowed=y
 
 8. http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf
-
-
 
 
 
