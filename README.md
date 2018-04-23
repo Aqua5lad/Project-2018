@@ -125,6 +125,9 @@ The analysis of the data set yielded the following observations:
   3. By variety, Virginica has the largest measurements overall, except for sepal width. 
   4. Setosa has the smallest measurements overall, except for sepal width, where it's largest. 
   5. Versicolor falls between largest and smallest on all characteristics except for sepal width, where it's smallest.
+  6. Petal Length, by Iris variety, showed a significant difference in distributions between Setosa (normal distribution) and the more scattered distributions in the Versicolor and Virginica varieties.
+  
+  
   
   
   
