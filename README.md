@@ -119,6 +119,14 @@ This analysis reveals a significant difference in distribution between Setosa pe
 
 ## Summary of Investigations
 
+The analysis of the data set yielded the following observations:
+  1. Petal Length is the variable with the most widely dispersed values, i.e. greatest deviation from the mean.
+  2. Sepal Width is the variable with the least widely dispersed values, i.e. lowest deviation from the mean.
+  3. By variety, Virginica has the largest measurements overall, except for sepal width. The Setosa has the smallest measurements, except for sepal width, where it's largest. 
+  4. Versicolor variety falls between largest and smallest measurements on all characteristics except for sepal width, where it's the  smallest.
+  
+  
+
 
 
 
