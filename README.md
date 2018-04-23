@@ -7,7 +7,7 @@ The subject matter of the project concerns the well-known Fisher’s Iris data s
 
 Fisher's Iris data set is a multivariate data set<sup>[3](https://en.wikipedia.org/wiki/Multivariate_statistics)</sup> introduced by the British statistician and biologist Ronald Fisher in his 1936 paper "The use of multiple measurements in taxonomic problems"<sup>[4](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x)</sup> as an example of linear discriminant analysis<sup>[5](https://en.wikipedia.org/wiki/Linear_discriminant_analysis)</sup>. This data set recorded the species of each Iris (3 were identified), and the measurement of 4 variables on each flower. These variables were the sepal length, sepal width, petal length and petal width (in centimetres). It was performed on 50 flowers, from each of 3 species of Iris, resulting in a total of 750 observations.
 
-## Researching the background to the Data Set
+## Researching the background to the data set
 The Wikipedia entry <sup>[6](https://en.wikipedia.org/wiki/Iris_flower_data_set)</sup> notes that this data set became a typical test case for many statistical classification techniques in machine learning such as support vector machines, while its use in cluster analysis is less common. Wikipedia also notes that the data set is a good example to explain the difference between supervised and unsupervised techniques in data mining. Data mining is the process of discovering patterns in large data sets involving methods at the intersection of machine learning, statistics, and database systems.
   
 Searching on the term 'Fisher Iris Data Set' returns a number of research studies, of which the following two are typical examples.
@@ -16,7 +16,7 @@ Searching on the term 'Fisher Iris Data Set' returns a number of research studie
 
 2) A Statistical Analysis of the Iris Flower Dataset by Patrick S. Hoey of University of Massachusetts At Lowell<sup>[8](http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf)</sup> plotted the dataset onto scatterplots to determine patterns in the data in relation to the Iris classifications. Secondly, it developed an application in Java that will run a series of methods on the dataset to extract relevant statistical information from the dataset. The employment of 2D scatterplots gave a visual representation which assists in identifying clusters.
 
-## Investigation of the Data Set with data analysis
+## Investigation of the data set with data analysis
 
 ### Project Methodology
 The data set follows a multi-variate structure, with columns 1 to 4 representing, respectively, sepal length, sepal width, petal length and petal width. The values for each of the three varieties are found at rows 1-50 (Setosa), 51-100 (Versicolor) and 101-150 (Virginica). 
@@ -135,8 +135,15 @@ This analysis reveals a significant difference in distribution between Setosa pe
 ### Project References List :
 
 1: https://en.wikipedia.org/wiki/Multivariate_statistics
-
 2: https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x
-
 3: https://en.wikipedia.org/wiki/Linear_discriminant_analysis
+4. https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x
+5. https://en.wikipedia.org/wiki/Linear_discriminant_analysis
+6. https://en.wikipedia.org/wiki/Iris_flower_data_set
+7. https://www.theseus.fi/bitstream/handle/10024/64785/yang_yu.pdf?sequence=1&isAllowed=y
+8. http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf
+
+
+
+
 
