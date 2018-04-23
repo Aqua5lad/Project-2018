@@ -7,25 +7,25 @@ The subject matter of the project concerns the well-known Fisher’s Iris data s
 
 Fisher's Iris data set is a multivariate data set<sup>[3](https://en.wikipedia.org/wiki/Multivariate_statistics)</sup> introduced by the British statistician and biologist Ronald Fisher in his 1936 paper "The use of multiple measurements in taxonomic problems"<sup>[4](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x)</sup> as an example of linear discriminant analysis<sup>[5](https://en.wikipedia.org/wiki/Linear_discriminant_analysis)</sup>. This data set recorded the species of each Iris (3 were identified), and the measurement of 4 variables on each flower. These variables were the sepal length, sepal width, petal length and petal width (in centimetres). It was performed on 50 flowers, from each of 3 species of Iris, resulting in a total of 750 observations.
 
-## Researching the background to this Problem
+## Researching the background to the Data Set
 The Wikipedia entry <sup>[6](https://en.wikipedia.org/wiki/Iris_flower_data_set)</sup> notes that this data set became a typical test case for many statistical classification techniques in machine learning such as support vector machines, while its use in cluster analysis is less common. Wikipedia also notes that the data set is a good example to explain the difference between supervised and unsupervised techniques in data mining. Data mining is the process of discovering patterns in large data sets involving methods at the intersection of machine learning, statistics, and database systems.
   
-Searching on the term 'Fisher Iris Data Set' returns a number of research studies, of which the following two are examples.
+Searching on the term 'Fisher Iris Data Set' returns a number of research studies, of which the following two are typical examples.
 
-A Thesis on Machine learning algorithms by Yu Yang<sup>[7](https://www.theseus.fi/bitstream/handle/10024/64785/yang_yu.pdf?sequence=1&isAllowed=y)</sup> sets as an objective that "the computer should have the ability to aggregate three different classifications of Iris flower to three categories, The users do not need to tell the computer which class the Iris belongs to, the computer can recognize them all by itself."  The writer achieves this by using clustering methodologies so as to allow the program to identify which datapoint belongs in each variety, based on which cluster they fall into. The employment of 3D scatterplots gave a clear visual representation, allowing the clusters to be easily identified.
+1) A Thesis on Machine learning algorithms by Yu Yang<sup>[7](https://www.theseus.fi/bitstream/handle/10024/64785/yang_yu.pdf?sequence=1&isAllowed=y)</sup> sets as an objective that "the computer should have the ability to aggregate three different classifications of Iris flower to three categories, The users do not need to tell the computer which class the Iris belongs to, the computer can recognize them all by itself."  The writer achieves this by using clustering methodologies so as to allow the program to identify which datapoint belongs in each variety, based on which cluster they fall into. The employment of 3D scatterplots gave a clear visual representation, allowing the clusters to be easily identified.
 
-A Statistical Analysis of the Iris Flower Dataset by Patrick S. Hoey of University of Massachusetts At Lowell<sup>[8](http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf)</sup> plotted the dataset onto scatterplots to determine patterns in the data in relation to the Iris classifications. Secondly, it developed an application in Java that will run a series of methods on the dataset to extract relevant statistical information from the dataset. The employment of 2D scatterplots gave a visual representation which assists in identifying clusters.
+2) A Statistical Analysis of the Iris Flower Dataset by Patrick S. Hoey of University of Massachusetts At Lowell<sup>[8](http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf)</sup> plotted the dataset onto scatterplots to determine patterns in the data in relation to the Iris classifications. Secondly, it developed an application in Java that will run a series of methods on the dataset to extract relevant statistical information from the dataset. The employment of 2D scatterplots gave a visual representation which assists in identifying clusters.
 
-## Investigation of the Problem with data analysis
+## Investigation of the Data Set with data analysis
 
 ### Project Methodology
-The dataset is investigated by creating a python program called NumpyData.py which performs the following tasks: 
+The dataset is investigated by creating a python program called NumpyData.py, in this repository, which performs the following tasks: 
 
-1. Load the iris dataset as a .csv file from within the Project-2018 repository
-2. Load the NumPy and Matplotlib python libraries to enable statistical analysis and graphical representations.
-3. Analyse the dataset to find the min, max and mean values of each variable, and it's standard deviation.
-4. Further analyse the data for each variety subset, as to the min, max and mean values of each variable
-5. Generate graphics to illustrate some differences in data distributions, by variable, identifying any clusters.
+1. Loads the iris dataset as a .csv file from within the Project-2018 repository
+2. Loads the NumPy and Matplotlib python libraries to enable statistical analysis and graphical representations.
+3. Analyses the dataset to find the min, max and mean values of each variable, and it's standard deviation.
+4. Further analyses the data for each variety subset, as to the min, max and mean values of each variable
+5. Generates graphics to illustrate some differences in data distributions, by variable, identifying any clusters.
 
 
 ### 1. Statistical analysis of the dataset
@@ -66,7 +66,7 @@ A similar statistical analysis, by Iris variety, was carried out, using the Nump
 |Minimum (cm)  |     4.9      |      2.2     |     4.5      |      1.4  
 |Mean    (cm)* |     6.602    |      2.973   |     5.561    |      2.031   
 
-* all rounded to 3 decimals   
+* (rounded to 3 decimals)   
 
 ### 3. Observations based on the statistical analysis of the dataset, and its varietal subsets.
 
