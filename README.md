@@ -135,13 +135,21 @@ This analysis reveals a significant difference in distribution between Setosa pe
 ### Project References List :
 
 1: http://archive.ics.uci.edu/ml/datasets/Iris
+
 2: https://www.python.org
+
 3: https://en.wikipedia.org/wiki/Multivariate_statistics
+
 4. https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x
+
 5. https://en.wikipedia.org/wiki/Linear_discriminant_analysis
+
 6. https://en.wikipedia.org/wiki/Iris_flower_data_set
+
 7. https://www.theseus.fi/bitstream/handle/10024/64785/yang_yu.pdf?sequence=1&isAllowed=y
+
 8. http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf
+
 
 
 
