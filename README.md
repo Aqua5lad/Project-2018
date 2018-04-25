@@ -26,7 +26,8 @@ The data set was investigated by creating a python program called NumpyData.py, 
 2. Loads the NumPy and Matplotlib python libraries to enable statistical analysis and graphical representations.
 3. Analyses the data set to return the min, max and mean values of each variable, and it's standard deviation.
 4. Further analyses the data for each varietal subset, as to the min, max and mean values of each variable.
-5. Generates the graphics used in this README to illustrate some differences in data distributions, by variable, identifying any clusters.
+5. Calculates the Standard Deviations for Petal Length on each of the 3 varieties.
+6. Generates the graphics used in this README to illustrate some differences in data distributions, by variable, identifying any clusters.
 
 ### 1. Statistical analysis of the data set
 The python program 'NumpyData' was written to analyse the data set and identify the maximum, minimum and mean values of the iris measurements, together with their standard deviations. The results of this analysis are shown in the following table.
