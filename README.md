@@ -162,6 +162,17 @@ The analysis of the data set yielded the following observations:
 
 8. http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf
 
+### Sources of Inspiration for the coding of NumpData.py
+
+The initial source for methodolgy was this free tutorial: https://www.youtube.com/watch?v=Tq6rCWPdXoQ and then an essay on "Functions, modules, packages and libraries" recommended by Ian McLoughlin at: https://nbviewer.jupyter.org/github/ianmcloughlin/python-fundamentals-notes/blob/master/functions-modules.ipynb#
+
+After creating functions for analysing the data, which were then used repeatedly, it became necessary to simplify the code with new 'generic' functions to make it more efficient. Particularly helpful in this regard was Ian's 'defining functions' video at: https://web.microsoftstream.com/video/72d3bbf9-e58d-4a19-8a2c-e784e3cb4db3
+
+Matplotlib generated good graphics, but for best presentation, guidance on setting up labeling commands was found at: https://matplotlib.org/gallery/pyplots/pyplot_text.html#sphx-glr-gallery-pyplots-pyplot-text-py. Another useful reference (although the code used is R) was: http://www.lac.inpe.br/~rafael.santos/Docs/R/CAP386/IntroEDA-Iris.html
+
+A method for laying out multiple Histograms, side-by-side, was found on Stack overflow:
+https://stackoverflow.com/questions/24319505/how-can-one-display-images-side-by-side-in-a-github-readme-md
+
 
 
 
