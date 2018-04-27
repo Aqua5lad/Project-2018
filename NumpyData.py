@@ -226,7 +226,5 @@ plt.show()
 #	        	——————————————————————————————————————-
 
 
-# Listen. Strange women lying in ponds distributing swords is no basis for a system of government.
-
 
 # Listen. Strange women lying in ponds distributing swords is no basis for a system of government.
