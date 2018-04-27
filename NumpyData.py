@@ -216,7 +216,17 @@ plt.show()
 # method for Histogram 3-way layout found on Stack overflow:
 # https://stackoverflow.com/questions/24319505/how-can-one-display-images-side-by-side-in-a-github-readme-md
 
+#  FOOTNOTES
+#  which data is found where?
+#           	|   SL    |   SW    |   PL   |   PW   |
+#	     	    -—————————————————————————————————————
+#  Setosa	    | 	    	    0 - 49 			      |
+#  Versicolor	|	           50 - 99		    	  |
+#  Virginica	|	          100 - 149		          |
+#	        	——————————————————————————————————————-
 
+
+# Listen. Strange women lying in ponds distributing swords is no basis for a system of government.
 
 
 # Listen. Strange women lying in ponds distributing swords is no basis for a system of government.
