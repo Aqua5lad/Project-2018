@@ -163,7 +163,7 @@ The analysis of the data set yielded the following observations:
 
 8. http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf
 
-### Sources of Inspiration for the coding of NumpData.py
+### Sources of Inspiration for the coding of NumpyData.py
 
 The initial source for methodolgy was this free tutorial: https://www.youtube.com/watch?v=Tq6rCWPdXoQ and then an essay on "Functions, modules, packages and libraries" recommended by Ian McLoughlin at: https://nbviewer.jupyter.org/github/ianmcloughlin/python-fundamentals-notes/blob/master/functions-modules.ipynb#
 
