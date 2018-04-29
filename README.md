@@ -94,7 +94,7 @@ On closer examination of table 1, it's noticeable that the data in column 2 (Sep
   
 In contrast to this, with a standard deviation of 1.759, the variable for petal length suggests a widely dispersed distribution, worthy of further investigation. So the petal lengths have also been plotted in a histogram, once again using the [matplotlib](https://matplotlib.org/) program in python. The result is shown in the second histogram (above right).
 
-While the mean value for Petal length is 3.8cm, few observations were seen at this value. The distribution was mainly found in two distinct clusters, one between 1cm and 2.2cm, and the other between 4cm and 5.7cm. This unusual distribution merited further a  investigation, using the NumpyData program to plot the Petal Length values by Iris variety.
+While the mean value for Petal length is 3.8cm, few observations were seen at this value. The distribution was mainly found in two distinct clusters, one between 1cm and 2.2cm, and the other between 4cm and 5.7cm. This unusual distribution merited further analysis, using the NumpyData program to plot the Petal Length values by Iris variety.
 
 ####  Distributions of Petal Length, by Iris Variety
 
